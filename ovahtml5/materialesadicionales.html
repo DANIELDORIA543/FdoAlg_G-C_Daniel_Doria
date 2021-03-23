@@ -4,15 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>formulario</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/88/88450.png">
 </head>
 <body>
+    <body bgcolor="#FAE0C1"></body>
     <nav>
         <a href="./index.html">incio</a> 
         <a href="./contenidos.html">contenidos</a>
         <a href="./actividades.html">actividades</a>
         <a href="./evaluacion.html">evaluacion</a>
         <a href="./creditos.html">creditos</a>
-    </h3>
+        <a href="materialesadicionales.html">materialesadicionales</a>
+        <pre>
+        </pre>
+    </h3
+    <section>
+        <form name="FORMULARIO" method="get" action="procesar.php">
+            <p>
+                <label>nombre <input type="text" name="nombre" maxlength="20"></label>
+            </p>
+            <p><label>edad <input type="number" name="edad" min="0" max="100"></label></p>
+            <p><label><label><input type="radio" name="edad" value="15" checked> 15 años </label></p>
+            <p><label><label><input type="radio" name="edad" value="30"> 30 años </label></p>
+            <p><label><label><input type="radio" name="edad" value="45"> 45 años </label></p>
+            <p><label><label><input type="radio" name="edad" value="60"> 60 años </label></p>
+            <p><label><input type="date" name="fecha" value="2017-02-05"></label></p>
+            <p><label>correo <input type="email" name="correo"></label></p>
+            <datalist id="datos">
+                <option value="123123123" label="telefono 1"></option>
+                <option value="456456456" label="telefono 2"></option>
+            </datalist>
+            <p><label>telefono <input type="tel" name="telefono" list="datos"></label></p>
+            <p><label>sitioweb <input type="url" name="sitioweb"></label></p>
+            <p><input type="color" name="micolor" value="#00ff00"></p>
+            <p><label>texto: <textarea name="texto" cols="50" rows="6"></textarea></label></p>
+            </p>
+            <pre>
+            </pre>
+        <form name="formulario" method="get" action="procesar.php">
+            <p><input type="text" name="val"></p>
+            <p><input type="submit" value="enviar"></p>
+    </section>
 </body>
 </html>
